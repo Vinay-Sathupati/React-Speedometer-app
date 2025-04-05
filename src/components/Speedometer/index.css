@@ -1,0 +1,94 @@
+/* Write your CSS here */
+
+.bg-container {
+  background-color: #07080c;
+  height: 100vh;
+  size: cover;
+  font-family: Roboto;
+  color: #ffffff;
+}
+
+.container {
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-size: 64px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.current-speed {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.limits {
+  font-size: 24px;
+  color: #cbd5e1;
+}
+
+.img-sizing {
+  max-width: 1000px;
+}
+
+.accelerate {
+  background-color: #0b69ff;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  height: 32px;
+  min-width: 90px;
+  margin-right: 10px;
+  cursor: pointer;
+  outline: none;
+}
+
+.brake {
+  background-color: transparent;
+  color: #94a3b8;
+  border: #94a3b8 solid 2px;
+  border-radius: 10px;
+  height: 32px;
+  min-width: 90px;
+  margin-left: 10px;
+  cursor: pointer;
+  outline: none;
+}
+
+.button-container {
+  margin-top: 20px;
+}
+
+.img-container {
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .heading {
+    font-size: 54px;
+  }
+
+  .limits {
+    font-size: 16px;
+  }
+
+  .img-sizing {
+    max-width: 100%;
+  }
+
+  .container {
+    height: 100%;
+  }
+}
+
+@media (max-width: 575px) {
+  .heading {
+    font-size: 36px;
+  }
+}
