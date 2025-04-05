@@ -1,4 +1,4 @@
-In this project, let's build a **Speedometer** by applying the concepts we have learned till now.
+In this project, let's build a **Speedometer**
 
 ### Refer to the image below:
 
